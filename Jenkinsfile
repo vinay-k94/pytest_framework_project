@@ -31,6 +31,9 @@ pipeline {
         stage('Publish HTML Report') {
             steps {
                 publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
                     reportDir: 'reports',
                     reportFiles: 'report.html',
                     reportName: 'Pytest HTML Report'
