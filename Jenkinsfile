@@ -10,21 +10,25 @@ pipeline {
 
         stage('Setup Python Environment') {
             steps {
-                bat '''
-                    python -m venv venv
-                    call venv\\Scripts\\activate
-                    pip install --upgrade pip
-                    pip install -r requirements.txt
-                '''
+                withPythonEnv('Python3') {
+                    bat '''
+                        python -m venv venv
+                        call venv\\Scripts\\activate
+                        pip install --upgrade pip
+                        pip install -r requirements.txt
+                    '''
+                }
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat '''
-                    call venv\\Scripts\\activate
-                    pytest --html=reports/report.html --self-contained-html --alluredir=reports/allure
-                '''
+                withPythonEnv('Python3') {
+                    bat '''
+                        call venv\\Scripts\\activate
+                        pytest --html=reports/report.html --self-contained-html --alluredir=reports/allure
+                    '''
+                }
             }
         }
 
