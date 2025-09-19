@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        python 'Python3'   // must match the name you gave in "Global Tool Configuration"
+    }
+
     stages {
         stage('Checkout Code') {
             steps {
@@ -10,25 +14,21 @@ pipeline {
 
         stage('Setup Python Environment') {
             steps {
-                withPythonEnv('Python3') {
-                    bat '''
-                        python -m venv venv
-                        call venv\\Scripts\\activate
-                        pip install --upgrade pip
-                        pip install -r requirements.txt
-                    '''
-                }
+                bat '''
+                    python -m venv venv
+                    call venv\\Scripts\\activate
+                    python -m pip install --upgrade pip
+                    pip install -r requirements.txt
+                '''
             }
         }
 
         stage('Run Tests') {
             steps {
-                withPythonEnv('Python3') {
-                    bat '''
-                        call venv\\Scripts\\activate
-                        pytest --html=reports/report.html --self-contained-html --alluredir=reports/allure
-                    '''
-                }
+                bat '''
+                    call venv\\Scripts\\activate
+                    pytest --html=reports/report.html --self-contained-html --alluredir=reports/allure
+                '''
             }
         }
 
