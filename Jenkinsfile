@@ -1,20 +1,27 @@
 pipeline {
     agent any
 
+    tools {
+        // ✅ Must match the name you gave in Global Tool Configuration
+        python 'Python3'
+    }
+
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/vinay-k94/pytest_framework_project.git'
+                git branch: 'main',
+                    url: 'https://github.com/vinay-k94/pytest_framework_project.git',
+                    credentialsId: 'your-git-credentials-id'   // replace if using private repo
             }
         }
 
-        stage('Setup Python Environment') {
+        stage('Setup Virtual Environment') {
             steps {
                 bat '''
-                    "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" -m venv venv
+                    python -m venv venv
                     call venv\\Scripts\\activate
-                    "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" -m pip install --upgrade pip
-                    "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" -m pip install -r requirements.txt
+                    python -m pip install --upgrade pip
+                    pip install -r requirements.txt
                 '''
             }
         }
@@ -23,28 +30,23 @@ pipeline {
             steps {
                 bat '''
                     call venv\\Scripts\\activate
-                    pytest --html=reports/report.html --self-contained-html --alluredir=reports/allure
+                    pytest --maxfail=1 --disable-warnings -q --alluredir=allure-results
                 '''
             }
         }
 
-        stage('Publish HTML Report') {
+        stage('Allure Report') {
             steps {
-                publishHTML([
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'reports',
-                    reportFiles: 'report.html',
-                    reportName: 'Pytest HTML Report'
-                ])
+                allure includeProperties: false,
+                       jdk: '',
+                       results: [[path: 'allure-results']]
             }
         }
     }
 
     post {
         always {
-            archiveArtifacts artifacts: 'reports/**', followSymlinks: false
+            junit 'reports/*.xml'   // If you generate JUnit XML reports
         }
     }
 }
