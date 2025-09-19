@@ -1,0 +1,58 @@
+2025-09-13 19:38:08 - config.config_manager - INFO - Loading config for environment 'test' from C:\Users\admin\PycharmProjects\pytest_framework_project\config\test.json
+2025-09-13 19:38:09 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:09 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:09 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:09 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:09 - tests.api.bunker - INFO - {'customer_id': '9B31CCE1-278E-3CB0-DBCE-3A18E411ACF0', 'vessel_imo': 9682356, 'port_unlocode': 'NLBRS', 'delivery_start_date': '2025-09-13T14:08:09.915828Z', 'delivery_end_date': '2025-09-17T14:08:09.915828Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:10 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:10 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:10 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:11 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:11 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:11 - tests.api.bunker - INFO - {'customer_id': '64E0C707-952A-4D49-B772-E964C201587D', 'vessel_imo': 9447770, 'port_unlocode': 'USBPX', 'delivery_start_date': '2025-09-13T14:08:11.158781Z', 'delivery_end_date': '2025-09-17T14:08:11.158781Z', 'fuels': [{'external_id': '0E22F919-621C-E192-7681-3A0C328DBF5F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:11 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:11 - tests.api.bunker - INFO - {'customer_id': '64E0C707-952A-4D49-B772-E964C201587D', 'vessel_imo': 9447770, 'port_unlocode': 'USBPX', 'delivery_start_date': '2025-09-13T14:08:11.158781Z', 'delivery_end_date': '2025-09-17T14:08:11.158781Z', 'fuels': [{'external_id': '0E22F919-621C-E192-7681-3A0C328DBF5F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:12 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:12 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:12 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:13 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:13 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:13 - tests.api.bunker - INFO - {'customer_id': '111111', 'vessel_imo': 9447770, 'port_unlocode': 'NOFRS', 'delivery_start_date': '2025-09-13T14:08:13.204773Z', 'delivery_end_date': '2025-09-17T14:08:13.204773Z', 'fuels': [{'external_id': '3E3EBD92-4032-67CF-7B29-3A0CE5C5EDC4', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:13 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:13 - tests.api.bunker - INFO - {'customer_id': '63720DAA-449B-5A0C-424A-3A1B3E1689DB', 'vessel_imo': 9447770, 'port_unlocode': '1111111', 'delivery_start_date': '2025-09-13T14:08:13.204773Z', 'delivery_end_date': '2025-09-17T14:08:13.204773Z', 'fuels': [{'external_id': '3E3EBD92-4032-67CF-7B29-3A0CE5C5EDC4', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:13 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:13 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': None, 'vessel_imo': 9447770, 'port_unlocode': 'GLJJU', 'delivery_start_date': '2025-09-13T14:08:14.137587Z', 'delivery_end_date': '2025-09-17T14:08:14.137587Z', 'fuels': [{'external_id': '08F75028-9161-E526-1564-3A0A42F3CF1B', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': 'DD1B282B-DDB0-3750-8FBA-3A1A1D9C3013', 'vessel_imo': None, 'port_unlocode': 'GLJJU', 'delivery_start_date': '2025-09-13T14:08:14.137587Z', 'delivery_end_date': '2025-09-17T14:08:14.137587Z', 'fuels': [{'external_id': '08F75028-9161-E526-1564-3A0A42F3CF1B', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': 'DD1B282B-DDB0-3750-8FBA-3A1A1D9C3013', 'vessel_imo': 9447770, 'port_unlocode': None, 'delivery_start_date': '2025-09-13T14:08:14.137587Z', 'delivery_end_date': '2025-09-17T14:08:14.137587Z', 'fuels': [{'external_id': '08F75028-9161-E526-1564-3A0A42F3CF1B', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': 'DD1B282B-DDB0-3750-8FBA-3A1A1D9C3013', 'vessel_imo': 9447770, 'port_unlocode': 'GLJJU', 'delivery_start_date': '2025-09-13T14:08:14.137587Z', 'delivery_end_date': '2025-09-17T14:08:14.137587Z', 'fuels': [{'external_id': None, 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': 'DD1B282B-DDB0-3750-8FBA-3A1A1D9C3013', 'vessel_imo': 9447770, 'port_unlocode': 'GLJJU', 'delivery_start_date': '2025-09-13T14:08:14.137587Z', 'delivery_end_date': '2025-09-17T14:08:14.137587Z', 'fuels': [{'external_id': '08F75028-9161-E526-1564-3A0A42F3CF1B', 'sulphur_external_id': None, 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': 'DD1B282B-DDB0-3750-8FBA-3A1A1D9C3013', 'vessel_imo': 9447770, 'port_unlocode': 'GLJJU', 'delivery_start_date': None, 'delivery_end_date': '2025-09-17T14:08:14.137587Z', 'fuels': [{'external_id': '08F75028-9161-E526-1564-3A0A42F3CF1B', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': 'DD1B282B-DDB0-3750-8FBA-3A1A1D9C3013', 'vessel_imo': 9447770, 'port_unlocode': 'GLJJU', 'delivery_start_date': '2025-09-13T14:08:14.137587Z', 'delivery_end_date': None, 'fuels': [{'external_id': '08F75028-9161-E526-1564-3A0A42F3CF1B', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - {'customer_id': 'DD1B282B-DDB0-3750-8FBA-3A1A1D9C3013', 'vessel_imo': 9447770, 'port_unlocode': 'GLJJU', 'delivery_start_date': '2025-09-13T14:08:14.137587Z', 'delivery_end_date': '2025-09-17T14:08:14.137587Z', 'fuels': [{'external_id': '08F75028-9161-E526-1564-3A0A42F3CF1B', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': None}]}
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:14 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:15 - tests.api.bunker - INFO - Response: 200
+2025-09-13 19:38:15 - tests.api.bunker - INFO - {'customer_id': '4D73624B-9128-4E6B-9777-65988DD38EE9', 'vessel_imo': 9706839, 'port_unlocode': 'BRCMG', 'delivery_start_date': '2025-09-17T14:08:15.020699Z', 'delivery_end_date': '2025-09-13T14:08:15.020699Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+2025-09-13 19:38:15 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:15 - tests.api.bunker - INFO - {'customer_id': '4D73624B-9128-4E6B-9777-65988DD38EE9', 'vessel_imo': 9706839, 'port_unlocode': 'BRCMG', 'delivery_start_date': '2025-09-17T14:08:15.020699Z', 'delivery_end_date': '2025-09-13T14:08:15.020699Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': 700, 'quantity_max': 555}]}
+2025-09-13 19:38:15 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:15 - tests.api.bunker - INFO - {'customer_id': '4D73624B-9128-4E6B-9777-65988DD38EE9', 'vessel_imo': 9706839, 'port_unlocode': 'BRCMG', 'delivery_start_date': '2025-09-17T14:08:15.020699Z', 'delivery_end_date': '2025-09-13T14:08:15.020699Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': 700, 'quantity_max': 0}]}
+2025-09-13 19:38:15 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:15 - tests.api.bunker - INFO - {'customer_id': '4D73624B-9128-4E6B-9777-65988DD38EE9', 'vessel_imo': 9706839, 'port_unlocode': 'BRCMG', 'delivery_start_date': '2025-09-17T14:08:15.020699Z', 'delivery_end_date': '2025-09-13T14:08:15.020699Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': 700, 'quantity_max': 1500}]}
+2025-09-13 19:38:15 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:15 - tests.api.bunker - INFO - {'customer_id': '4D73624B-9128-4E6B-9777-65988DD38EE9', 'vessel_imo': 9706839, 'port_unlocode': 'BRCMG', 'delivery_start_date': '2025-09-17T14:08:15.020699Z', 'delivery_end_date': '2025-09-13T14:08:15.020699Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': 700, 'quantity_max': '555'}]}
+2025-09-13 19:38:15 - tests.api.bunker - INFO - Response: 400
+2025-09-13 19:38:15 - tests.api.bunker - INFO - {'customer_id': '4D73624B-9128-4E6B-9777-65988DD38EE9', 'vessel_imo': 'fxhrh', 'port_unlocode': 'BRCMG', 'delivery_start_date': '2025-09-17T14:08:15.020699Z', 'delivery_end_date': '2025-09-13T14:08:15.020699Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': 700, 'quantity_max': '555'}]}
+2025-09-13 19:38:15 - tests.api.bunker - INFO - Response: 400

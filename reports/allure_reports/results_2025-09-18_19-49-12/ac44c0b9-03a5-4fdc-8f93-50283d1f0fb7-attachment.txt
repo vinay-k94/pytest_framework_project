@@ -1,0 +1,10 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/my-fleet HTTP/1.1" 200 122
+[32mINFO    [0m tests.api.bunker:bunker.py:59 Response: 200
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/customers HTTP/1.1" 200 None
+[32mINFO    [0m tests.api.bunker:bunker.py:54 Response: 200
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/ports HTTP/1.1" 200 None
+[32mINFO    [0m tests.api.bunker:bunker.py:64 Response: 200
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/fuel-sulphur-iso HTTP/1.1" 200 None
+[32mINFO    [0m tests.api.bunker:bunker.py:74 Response: 200
+[32mINFO    [0m tests.api.bunker:bunker.py:117 {'customer_id': 'C6419808-5AA1-64D8-8FC9-3A1979CE5A15', 'vessel_imo': 9682356, 'port_unlocode': 'RUSEW', 'delivery_start_date': '2025-09-18T14:19:16.278916Z', 'delivery_end_date': '2025-09-22T14:19:16.278916Z', 'fuels': [{'external_id': '3E3EBD92-4032-67CF-7B29-3A0CE5C5EDC4', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "POST /api/bunker/create-inquiry HTTP/1.1" 500 93

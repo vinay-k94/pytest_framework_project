@@ -1,0 +1,13 @@
+[32mINFO    [0m config.config_manager:config_manager.py:20 Loading config for environment 'test' from C:\Users\admin\PycharmProjects\pytest_framework_project\config\test.json
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): one.geoserves-test.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/my-fleet HTTP/1.1" 200 122
+[32mINFO    [0m tests.api.bunker:bunker.py:59 Response: 200
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/customers HTTP/1.1" 200 None
+[32mINFO    [0m tests.api.bunker:bunker.py:54 Response: 200
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/ports HTTP/1.1" 200 None
+[32mINFO    [0m tests.api.bunker:bunker.py:64 Response: 200
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "GET /api/fuel-sulphur-iso HTTP/1.1" 200 None
+[32mINFO    [0m tests.api.bunker:bunker.py:74 Response: 200
+[32mINFO    [0m tests.api.bunker:bunker.py:117 {'customer_id': '9B31CCE1-278E-3CB0-DBCE-3A18E411ACF0', 'vessel_imo': 9682356, 'port_unlocode': 'NLBRS', 'delivery_start_date': '2025-09-13T14:08:09.915828Z', 'delivery_end_date': '2025-09-17T14:08:09.915828Z', 'fuels': [{'external_id': '1AC5CB35-2599-94E3-1B6D-3A0C74C73F2F', 'sulphur_external_id': 'BEA831A6-D644-09AC-12EB-3A0FB84251E7', 'quantity_min': None, 'quantity_max': 555}]}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 https://one.geoserves-test.com:443 "POST /api/bunker/create-inquiry HTTP/1.1" 200 374
+[32mINFO    [0m tests.api.bunker:bunker.py:122 Response: 200
